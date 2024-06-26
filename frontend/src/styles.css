@@ -1,0 +1,81 @@
+body {
+    background-color: #f8f8fa;
+    opacity: 1;
+    background: radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent) 100px 100px, linear-gradient(#5a5958 8px, transparent 8px) 0 -4px, linear-gradient(90deg, #5a5958 8px, #e5e5f7 8px) -4px 0;
+    background-size: 200px 200px, 200px 200px, 100px 100px, 100px 100px;
+}
+
+.todo-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input-form {
+    text-align: center;
+}
+
+
+ul {
+    width: 370px;
+    margin-left: 40px;
+    background-color: #f3f3fb;
+    background-image:  linear-gradient(#c4b8b8 0.8px, transparent 0.8px), linear-gradient(to right, #c4b8b8 0.8px, #f3f3fb 0.8px);
+    background-size: 16px 16px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 25px;
+    font-family: "Playwrite US Trad", cursive;
+    padding-right: 5px;
+    word-wrap: break-word;
+    
+}
+
+input, select{ 
+    width: 200px; 
+    height: 25px; 
+    margin: 15px; 
+    box-sizing: border-box; 
+} 
+
+.custom-input {
+    background: none; 
+    border: none; 
+    border-bottom: 2px solid #000;
+    color: black;
+}
+
+.custom-select {
+    background: none; 
+    border: none; 
+    border-bottom: 2px solid #000; 
+    color: black; 
+    
+  }
+  
+button {
+    height: 25px; 
+    margin-bottom: 20px; 
+    box-sizing: border-box; 
+}
+
+#title {
+    text-align: center;
+    font-family: "Playwrite US Trad", cursive;
+}
+
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 24px;
+    vertical-align: middle;
+  }
+  
+  .icon-button:hover {
+    color: #007bff; /* Синій колір при наведенні */
+  }
